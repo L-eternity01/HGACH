@@ -430,7 +430,6 @@ class Session:
             final_sim1 = generate_robust_S(final_sim,settings.alpha,settings.beta)  
             self.final_sim = 2 * final_sim1 - 1.0
         else:
-            self.final_sim = 2 * final_sim - 1.0
             self.final_sim = generate_robust_S(final_sim,settings.alpha,settings.beta) 
 
 
