@@ -25,8 +25,8 @@ if DATASET == 'MIRFlickr':
     LR_TXT = 0.01
     EVAL_INTERVAL = 5
 
-    alpha = 1.0
-    beta = 4.0
+    alpha = 0.0
+    beta = 6.0
 
     threshold = 0.33 #原始
     
