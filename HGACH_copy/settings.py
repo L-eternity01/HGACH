@@ -28,7 +28,7 @@ if DATASET == 'MIRFlickr':
     alpha = 0.0
     beta = 6.0
 
-    threshold = 0.33 #原始
+    threshold = 0.3 #原始
     
 
 
